@@ -4,6 +4,8 @@ Welcome to the official playground for the **ITea LAB Git & GitHub Workshop**!
 
 This repository is designed as a safe sandbox for you to practice Git commands, make mistakes, and learn Version Control without the fear of breaking a real production server. 
 
+New line
+
 ---
 
 ## 🛠️ Quick Start (Try it out!)
