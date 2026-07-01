@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Git Workshop - Gallery</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: #f4f4f9; color: #333; line-height: 1.6; }
+        header { background: #24292e; color: #fff; padding: 2rem; text-align: center; }
+        header h1 { font-size: 2.5rem; }
+        nav { background: #2f363d; padding: 1rem; text-align: center; }
+        nav a { color: #c9d1d9; text-decoration: none; margin: 0 1rem; font-size: 1.1rem; transition: color 0.3s; }
+        nav a:hover { color: #58a6ff; }
+        main { max-width: 900px; margin: 2rem auto; padding: 0 1rem; }
+        .gallery { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; }
+        .card { background: #fff; border-radius: 8px; padding: 2rem; box-shadow: 0 2px 8px rgba(0,0,0,0.1); text-align: center; transition: transform 0.3s; }
+        .card:hover { transform: translateY(-4px); }
+        .card .icon { font-size: 3rem; margin-bottom: 1rem; }
+        .card h2 { color: #24292e; font-size: 1.2rem; margin-bottom: 0.5rem; }
+        .card p { color: #586069; font-size: 0.9rem; }
+        footer { text-align: center; padding: 1.5rem; background: #24292e; color: #8b949e; margin-top: 3rem; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>🖼️ Git Command Gallery</h1>
+    </header>
+    <nav>
+        <a href="index.html">🏠 Home</a>
+        <a href="about.html">📖 About</a>
+        <a href="contact.html">📧 Contact</a>
+        <a href="blog.html">📝 Blog</a>
+        <a href="gallery.html">🖼️ Gallery</a>
+    </nav>
+    <main>
+        <div class="gallery">
+            <div class="card">
+                <div class="icon">📦</div>
+                <h2>git init</h2>
+                <p>Create a new Git repository in your project folder.</p>
+            </div>
+            <div class="card">
+                <div class="icon">📋</div>
+                <h2>git add</h2>
+                <p>Stage changes to prepare them for a commit.</p>
+            </div>
+            <div class="card">
+                <div class="icon">💾</div>
+                <h2>git commit</h2>
+                <p>Save staged changes with a descriptive message.</p>
+            </div>
+            <div class="card">
+                <div class="icon">🌿</div>
+                <h2>git branch</h2>
+                <p>Create, list, or delete branches in your repo.</p>
+            </div>
+            <div class="card">
+                <div class="icon">🔀</div>
+                <h2>git merge</h2>
+                <p>Combine changes from one branch into another.</p>
+            </div>
+            <div class="card">
+                <div class="icon">☁️</div>
+                <h2>git push</h2>
+                <p>Upload local commits to a remote repository.</p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2026 Git Workshop Demo. Built for learning purposes.</p>
+    </footer>
+</body>
+</html>
